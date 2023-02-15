@@ -1,11 +1,7 @@
 import {useState, useEffect} from 'react';
 import Player from './components/Player/Player';
-
 function App() {
-  const [songs] = useState(// 20230215195417
-  // https://driss.cf/stream/api/v1.php
-  
-  [
+  const [songs] = useState([
     {
       "id": 0,
       "title": "Wili",

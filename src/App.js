@@ -137,7 +137,7 @@ function App() {
       "title": "Sparadra",
       "artist": "Lmorphine",
       "img_src": "https://raw.githubusercontent.com/DrissBouda/vuejs-music-app/master/src/assets/lmorphine.jpg",
-      "src": "http://xoom.virgilio.it/source_filemanager/ws/ss/wss/inkonnu/L%20morphine%20-%20Sparadra.mp3"
+      "src": "https://xoom.virgilio.it/source_filemanager/ws/ss/wss/inkonnu/L%20morphine%20-%20Sparadra.mp3"
     },
     {
       "id": 19,
@@ -151,7 +151,7 @@ function App() {
       "title": "RIP LOVE",
       "artist": "Faouzia",
       "img_src": "https://raw.githubusercontent.com/DrissBouda/vuejs-music-app/master/src/assets/faouzia.jpg",
-      "src": "http://xoom.virgilio.it/source_filemanager/ws/ss/wss/Faouzia%20-%20RIP%2C%20Love.mp3"
+      "src": "https://xoom.virgilio.it/source_filemanager/ws/ss/wss/Faouzia%20-%20RIP%2C%20Love.mp3"
     },
     {
       "id": 21,
@@ -676,7 +676,7 @@ function App() {
       "title": "Weekend Ft. Idrissi",
       "artist": "Cnebce",
       "img_src": "https://raw.githubusercontent.com/DrissBouda/vuejs-music-app/master/src/assets/cnebce.jpg",
-      "src": "http://drissbouda.xoom.it/mp3/Cnebce%20&%20Idrissi%20-%20Weekend.mp3"
+      "src": "https://drissbouda.xoom.it/mp3/Cnebce%20&%20Idrissi%20-%20Weekend.mp3"
     },
     {
       "id": 96,
@@ -697,7 +697,7 @@ function App() {
       "title": "Family Ft. Fnaire",
       "artist": "Don Bigg",
       "img_src": "https://raw.githubusercontent.com/DrissBouda/vuejs-music-app/master/src/assets/don bigg.jpg",
-      "src": "http://drissbouda.xoom.it/mp3/Bigg/Bigg%20feat%20Fnaire%20-%20Familly.mp3"
+      "src": "https://drissbouda.xoom.it/mp3/Bigg/Bigg%20feat%20Fnaire%20-%20Familly.mp3"
     },
     {
       "id": 99,

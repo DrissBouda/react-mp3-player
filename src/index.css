@@ -36,6 +36,7 @@ body {
 
 .c-player > p span {
   font-weight: 400;
+  color: #e8bc0c;
 }
 
 .c-player--details .details-img {

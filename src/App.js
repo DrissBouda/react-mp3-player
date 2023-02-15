@@ -719,7 +719,7 @@ function App() {
         return currentSongIndex + 1;
       }
     });
-  }, [currentSongIndex]);
+  }, [currentSongIndex, songs.length]);
 
   return (
     <div className="App">

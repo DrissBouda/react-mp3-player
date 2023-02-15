@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: #313131;
+  background-color: #33393e;
 }
 
 .App {
@@ -18,25 +18,18 @@ body {
 
 .c-player {
   display: block;
-  background-color: #313131;
+  background-color: #33393e;
   display: block;
-  margin: 0px auto;
-  padding: 50px;
+  margin: 5px auto;
+  padding: 60px;
   border-radius: 16px;
   box-shadow: inset -6px -6px 12px rgba(0, 0, 0, 0.8), inset 6px 6px 12px rgba(255, 255, 255, 0.4);
 }
 
-.c-player > h4 {
-  color: #FFF;
-  font-size: 14px;
-  text-transform: uppercase;
-  font-weight: 500;
-  text-align: center;
-}
 
 .c-player > p {
   color: #AAA;
-  font-size: 14px;
+  font-size: 16px;
   text-align: center;
   font-weight: 600;
 }
@@ -53,7 +46,7 @@ body {
 
 .c-player--details .details-img img {
   display: block;
-  margin: 50px auto;
+  margin: 40px auto;
   width: 200px;
   max-width: 200px;
   border-radius: 20%;
@@ -102,7 +95,7 @@ body {
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8), -4px -4px 10px rgba(255, 255, 255, 0.4), inset -4px -4px 10px rgba(0, 0, 0, 0.4), inset 4px 4px 10px rgba(255, 255, 255, 0.4);
   border: none;
   outline: none;
-  background-color: #FFCE00;
+  background-color: #e8bc0c;
   color: #FFF;
   font-size: 24px;
   cursor: pointer;
@@ -114,5 +107,5 @@ body {
   outline: none;
   cursor: pointer;
   color: #888;
-  font-size: 18px;
+  font-size: 20px;
 }

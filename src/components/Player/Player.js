@@ -70,7 +70,7 @@ function Player(props) {
 
     return (
         <div className="c-player">
-                <h4>{props.songs[props.nextSongIndex].id} of {props.songs.length} songs</h4>
+                <h4>{props.songs[props.nextSongIndex].id} out of {props.songs.length} songs</h4>
                 <audio 
                     id='audio' onEnded={SkipSong} 
                     src={props.songs[props.currentSongIndex].src} 

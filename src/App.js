@@ -136,7 +136,7 @@ function App() {
       "title": "Sparadra",
       "artist": "Lmorphine",
       "img_src": "https://raw.githubusercontent.com/DrissBouda/vuejs-music-app/master/src/assets/lmorphine.jpg",
-      "src": "http://xoom.virgilio.it/source_filemanager/ws/ss/wss/inkonnu/L%20morphine%20-%20Sparadra.mp3"
+      "src": "https://xoom.virgilio.it/source_filemanager/ws/ss/wss/inkonnu/L%20morphine%20-%20Sparadra.mp3"
     },
     {
       "id": 19,
@@ -150,7 +150,7 @@ function App() {
       "title": "RIP LOVE",
       "artist": "Faouzia",
       "img_src": "https://raw.githubusercontent.com/DrissBouda/vuejs-music-app/master/src/assets/faouzia.jpg",
-      "src": "http://xoom.virgilio.it/source_filemanager/ws/ss/wss/Faouzia%20-%20RIP%2C%20Love.mp3"
+      "src": "https://xoom.virgilio.it/source_filemanager/ws/ss/wss/Faouzia%20-%20RIP%2C%20Love.mp3"
     },
     {
       "id": 21,
@@ -675,7 +675,7 @@ function App() {
       "title": "Weekend Ft. Idrissi",
       "artist": "Cnebce",
       "img_src": "https://raw.githubusercontent.com/DrissBouda/vuejs-music-app/master/src/assets/cnebce.jpg",
-      "src": "http://drissbouda.xoom.it/mp3/Cnebce%20&%20Idrissi%20-%20Weekend.mp3"
+      "src": "https://drissbouda.xoom.it/mp3/Cnebce%20&%20Idrissi%20-%20Weekend.mp3"
     },
     {
       "id": 96,
@@ -696,7 +696,7 @@ function App() {
       "title": "Family Ft. Fnaire",
       "artist": "Don Bigg",
       "img_src": "https://raw.githubusercontent.com/DrissBouda/vuejs-music-app/master/src/assets/don bigg.jpg",
-      "src": "http://drissbouda.xoom.it/mp3/Bigg/Bigg%20feat%20Fnaire%20-%20Familly.mp3"
+      "src": "https://drissbouda.xoom.it/mp3/Bigg/Bigg%20feat%20Fnaire%20-%20Familly.mp3"
     },
     {
       "id": 99,
@@ -843,7 +843,7 @@ function App() {
       "title": "9ra 9ra",
       "artist": "Cheb Bilal",
       "img_src": "https://raw.githubusercontent.com/DrissBouda/vuejs-music-app/master/src/assets/cheb bilal.jpg",
-      "src": "http://drissbouda.xoom.it/mp3/Cheb%20Bilal/bilal-9ra-9ra.mp3"
+      "src": "https://drissbouda.xoom.it/mp3/Cheb%20Bilal/bilal-9ra-9ra.mp3"
     },
     {
       "id": 120,
@@ -857,21 +857,21 @@ function App() {
       "title": "Sicko Mode Ft. Drake",
       "artist": "Travis Scott",
       "img_src": "https://raw.githubusercontent.com/DrissBouda/vuejs-music-app/master/src/assets/travis scott.jpg",
-      "src": "http://dl.musicbazz.ir/music/Rap/T/Travis%20Scott/Album/Travis%20Scott%20-%20Essentials%20%282019%29%20Mp3%20320kbps%20Songs%20%5BWww.MusicBazz.iR%5D/01.%20SICKO%20MODE.mp3"
+      "src": "https://dl.musicbazz.ir/music/Rap/T/Travis%20Scott/Album/Travis%20Scott%20-%20Essentials%20%282019%29%20Mp3%20320kbps%20Songs%20%5BWww.MusicBazz.iR%5D/01.%20SICKO%20MODE.mp3"
     },
     {
       "id": 122,
       "title": "Butterfly Effect",
       "artist": "Travis Scott",
       "img_src": "https://raw.githubusercontent.com/DrissBouda/vuejs-music-app/master/src/assets/travis scott.jpg",
-      "src": "http://dl.musicbazz.ir/music/Rap/T/Travis%20Scott/Album/Travis%20Scott%20-%20Essentials%20%282019%29%20Mp3%20320kbps%20Songs%20%5BWww.MusicBazz.iR%5D/07.%20BUTTERFLY%20EFFECT.mp3"
+      "src": "https://dl.musicbazz.ir/music/Rap/T/Travis%20Scott/Album/Travis%20Scott%20-%20Essentials%20%282019%29%20Mp3%20320kbps%20Songs%20%5BWww.MusicBazz.iR%5D/07.%20BUTTERFLY%20EFFECT.mp3"
     },
     {
       "id": 123,
       "title": "9awdouha Ft. Lferda",
       "artist": "ElGrandeToto",
       "img_src": "https://raw.githubusercontent.com/DrissBouda/vuejs-music-app/master/src/assets/elgrandetoto.jpg",
-      "src": "http://bouda.cf/mp3/mp3s/Toto%20-%209awdouha%20Ft.%20Lferda.mp3"
+      "src": "https://bouda.cf/mp3/mp3s/Toto%20-%209awdouha%20Ft.%20Lferda.mp3"
     },
     {
       "id": 124,
@@ -927,7 +927,7 @@ function App() {
       "title": "Bougroune 2020",
       "artist": "Nostik",
       "img_src": "https://raw.githubusercontent.com/DrissBouda/vuejs-music-app/master/src/assets/nostik.jpg",
-      "src": "http://drissbouda.xoom.it/Nostik%20-%20Bougroune%202020.mp3"
+      "src": "https://drissbouda.xoom.it/Nostik%20-%20Bougroune%202020.mp3"
     },
     {
       "id": 132,
@@ -1018,14 +1018,14 @@ function App() {
       "title": "6 Min 3likom",
       "artist": "Don Bigg",
       "img_src": "https://raw.githubusercontent.com/DrissBouda/vuejs-music-app/master/src/assets/don bigg.jpg",
-      "src": "http://drissbouda.xoom.it/mp3/Bigg/6min%203likom.mp3"
+      "src": "https://drissbouda.xoom.it/mp3/Bigg/6min%203likom.mp3"
     },
     {
       "id": 145,
       "title": "3a9lia",
       "artist": "Don Bigg",
       "img_src": "https://raw.githubusercontent.com/DrissBouda/vuejs-music-app/master/src/assets/don bigg.jpg",
-      "src": "http://drissbouda.xoom.it/mp3/Bigg/3a9lia.mp3"
+      "src": "https://drissbouda.xoom.it/mp3/Bigg/3a9lia.mp3"
     },
     {
       "id": 146,
@@ -1431,56 +1431,56 @@ function App() {
       "title": "Mohamed",
       "artist": "Nostik",
       "img_src": "https://raw.githubusercontent.com/DrissBouda/vuejs-music-app/master/src/assets/nostik.jpg",
-      "src": "http://drissbouda.xoom.it/nostik%20-%20mohamed.mp3"
+      "src": "https://drissbouda.xoom.it/nostik%20-%20mohamed.mp3"
     },
     {
       "id": 204,
       "title": "Issa",
       "artist": "Nostik",
       "img_src": "https://raw.githubusercontent.com/DrissBouda/vuejs-music-app/master/src/assets/nostik.jpg",
-      "src": "http://drissbouda.xoom.it/kafer%20maghribi%20-%203issa.mp3"
+      "src": "https://drissbouda.xoom.it/kafer%20maghribi%20-%203issa.mp3"
     },
     {
       "id": 205,
       "title": "Solayman",
       "artist": "Nostik",
       "img_src": "https://raw.githubusercontent.com/DrissBouda/vuejs-music-app/master/src/assets/nostik.jpg",
-      "src": "http://drissbouda.xoom.it/kafer%20maghribi%20-%20solaymane.mp3"
+      "src": "https://drissbouda.xoom.it/kafer%20maghribi%20-%20solaymane.mp3"
     },
     {
       "id": 206,
       "title": "Moussa",
       "artist": "Nostik",
       "img_src": "https://raw.githubusercontent.com/DrissBouda/vuejs-music-app/master/src/assets/nostik.jpg",
-      "src": "http://drissbouda.xoom.it/kafer%20maghribi%20-%20moussa.mp3"
+      "src": "https://drissbouda.xoom.it/kafer%20maghribi%20-%20moussa.mp3"
     },
     {
       "id": 207,
       "title": "Youssef",
       "artist": "Nostik",
       "img_src": "https://raw.githubusercontent.com/DrissBouda/vuejs-music-app/master/src/assets/nostik.jpg",
-      "src": "http://drissbouda.xoom.it/kafer%20maghribi%20-%20youssef.mp3"
+      "src": "https://drissbouda.xoom.it/kafer%20maghribi%20-%20youssef.mp3"
     },
     {
       "id": 208,
       "title": "Ibrahim and Lout",
       "artist": "Nostik",
       "img_src": "https://raw.githubusercontent.com/DrissBouda/vuejs-music-app/master/src/assets/nostik.jpg",
-      "src": "http://drissbouda.xoom.it/kafer%20maghribi%20-%20ibrahim%20and%20loot.mp3"
+      "src": "https://drissbouda.xoom.it/kafer%20maghribi%20-%20ibrahim%20and%20loot.mp3"
     },
     {
       "id": 209,
       "title": "Nou7",
       "artist": "Nostik",
       "img_src": "https://raw.githubusercontent.com/DrissBouda/vuejs-music-app/master/src/assets/nostik.jpg",
-      "src": "http://drissbouda.xoom.it/kafer%20maghribi%20-%20nouh.mp3"
+      "src": "https://drissbouda.xoom.it/kafer%20maghribi%20-%20nouh.mp3"
     },
     {
       "id": 210,
       "title": "Adam",
       "artist": "Nostik",
       "img_src": "https://raw.githubusercontent.com/DrissBouda/vuejs-music-app/master/src/assets/nostik.jpg",
-      "src": "http://drissbouda.xoom.it/kafer%20maghribi%20-%20adam.mp3"
+      "src": "https://drissbouda.xoom.it/kafer%20maghribi%20-%20adam.mp3"
     },
     {
       "id": 211,
@@ -1522,7 +1522,7 @@ function App() {
       "title": "Bghawni Saket",
       "artist": "Draganov",
       "img_src": "https://raw.githubusercontent.com/DrissBouda/vuejs-music-app/master/src/assets/draganov.jpg",
-      "src": "http://xoom.virgilio.it/source_filemanager/dr/ri/drissbouda/Draganov%20-%20BGHAWNI%20SAKET.mp3"
+      "src": "https://xoom.virgilio.it/source_filemanager/dr/ri/drissbouda/Draganov%20-%20BGHAWNI%20SAKET.mp3"
     },
     {
       "id": 217,
@@ -1592,7 +1592,7 @@ function App() {
       "title": "Smog",
       "artist": "Damso",
       "img_src": "https://raw.githubusercontent.com/DrissBouda/vuejs-music-app/master/src/assets/damso.jpg",
-      "src": "http://drissbouda.xoom.it/damso-smog.mp3"
+      "src": "https://drissbouda.xoom.it/damso-smog.mp3"
     },
     {
       "id": 227,
@@ -1634,28 +1634,28 @@ function App() {
       "title": "STYLO",
       "artist": "Madd",
       "img_src": "https://raw.githubusercontent.com/DrissBouda/vuejs-music-app/master/src/assets/madd.jpg",
-      "src": "http://xoom.virgilio.it/source_filemanager/bi/il/bilalizik/MADD%20-%20STYLO.mp3"
+      "src": "https://xoom.virgilio.it/source_filemanager/bi/il/bilalizik/MADD%20-%20STYLO.mp3"
     },
     {
       "id": 233,
       "title": "Piano",
       "artist": "Mons",
       "img_src": "https://raw.githubusercontent.com/DrissBouda/vuejs-music-app/master/src/assets/mons.jpg",
-      "src": "http://drissbouda.xoom.it/Mons%20-%20PIANO..mp3"
+      "src": "https://drissbouda.xoom.it/Mons%20-%20PIANO..mp3"
     },
     {
       "id": 234,
       "title": "Bros",
       "artist": "RIN",
       "img_src": "https://raw.githubusercontent.com/DrissBouda/vuejs-music-app/master/src/assets/rin.jpg",
-      "src": "http://drissbouda.xoom.it/RIN%20-%20Bros%20(prod.%20Minhtendo).mp3"
+      "src": "https://drissbouda.xoom.it/RIN%20-%20Bros%20(prod.%20Minhtendo).mp3"
     },
     {
       "id": 235,
       "title": "EY EY EY",
       "artist": "Madd",
       "img_src": "https://raw.githubusercontent.com/DrissBouda/vuejs-music-app/master/src/assets/madd.jpg",
-      "src": "http://drissbouda.xoom.it/MADD%20-%20EY%20EY%20EY.mp3"
+      "src": "https://drissbouda.xoom.it/MADD%20-%20EY%20EY%20EY.mp3"
     },
     {
       "id": 236,
@@ -1725,21 +1725,21 @@ function App() {
       "title": "Al Rissala",
       "artist": "Muslim",
       "img_src": "https://raw.githubusercontent.com/DrissBouda/vuejs-music-app/master/src/assets/muslim.jpg",
-      "src": "http://k007.kiwi6.com/hotlink/fkzfwhp7cc/Muslim_-_AL_RISSALA_2014_.mp3"
+      "src": "https://k007.kiwi6.com/hotlink/fkzfwhp7cc/Muslim_-_AL_RISSALA_2014_.mp3"
     },
     {
       "id": 246,
       "title": "Derniere Danse",
       "artist": "Indila",
       "img_src": "https://raw.githubusercontent.com/DrissBouda/vuejs-music-app/master/src/assets/indila.jpg",
-      "src": "http://k007.kiwi6.com/hotlink/f13tk0yyn9/Indila_-_Derniere_Danse.mp3"
+      "src": "https://k007.kiwi6.com/hotlink/f13tk0yyn9/Indila_-_Derniere_Danse.mp3"
     },
     {
       "id": 247,
       "title": "Boom 2012",
       "artist": "Mr Danger",
       "img_src": "https://raw.githubusercontent.com/DrissBouda/vuejs-music-app/master/src/assets/mr danger.jpg",
-      "src": "http://k007.kiwi6.com/hotlink/joo6vczpne/Mr_Danger_-_Boom_2012.mp3"
+      "src": "https://k007.kiwi6.com/hotlink/joo6vczpne/Mr_Danger_-_Boom_2012.mp3"
     },
     {
       "id": 248,
@@ -1823,7 +1823,7 @@ function App() {
       "title": "Rabiosa",
       "artist": "Shakira",
       "img_src": "https://raw.githubusercontent.com/DrissBouda/vuejs-music-app/master/src/assets/shakira.jpg",
-      "src": "http://billigradio.com/zzold/_notes/GOLD%20-%2002/SHAKIRA%20-%20Rabiosa.mp3"
+      "src": "https://billigradio.com/zzold/_notes/GOLD%20-%2002/SHAKIRA%20-%20Rabiosa.mp3"
     },
     {
       "id": 260,
@@ -1837,35 +1837,35 @@ function App() {
       "title": "Ahl Al Kahf",
       "artist": "Nostik",
       "img_src": "https://raw.githubusercontent.com/DrissBouda/vuejs-music-app/master/src/assets/nostik.jpg",
-      "src": "http://drissbouda.xoom.it/kafer%20maghribi%20ahl%20alkahf.mp3"
+      "src": "https://drissbouda.xoom.it/kafer%20maghribi%20ahl%20alkahf.mp3"
     },
     {
       "id": 262,
       "title": "Fhamtini Oula La",
       "artist": "Don Bigg",
       "img_src": "https://raw.githubusercontent.com/DrissBouda/vuejs-music-app/master/src/assets/don bigg.jpg",
-      "src": "http://k003.kiwi6.com/hotlink/hd186iwxvx/bigg_-_fhamtini_oula_la.mp3"
+      "src": "https://k003.kiwi6.com/hotlink/hd186iwxvx/bigg_-_fhamtini_oula_la.mp3"
     },
     {
       "id": 263,
       "title": "Rani Mara Hna",
       "artist": "Cheb Hasni",
       "img_src": "https://raw.githubusercontent.com/DrissBouda/vuejs-music-app/master/src/assets/cheb hasni.jpg",
-      "src": "http://a.tumblr.com/tumblr_mstkeclZLS1sgtovxo1.mp3"
+      "src": "https://a.tumblr.com/tumblr_mstkeclZLS1sgtovxo1.mp3"
     },
     {
       "id": 264,
       "title": "A7dath Nihaya",
       "artist": "Nostik",
       "img_src": "https://raw.githubusercontent.com/DrissBouda/vuejs-music-app/master/src/assets/nostik.jpg",
-      "src": "http://drissbouda.xoom.it/ahdath%20nihaya%20kafer%20maghribi.mp3"
+      "src": "https://drissbouda.xoom.it/ahdath%20nihaya%20kafer%20maghribi.mp3"
     },
     {
       "id": 265,
       "title": "Desole",
       "artist": "Sexion D Assaut",
       "img_src": "https://raw.githubusercontent.com/DrissBouda/vuejs-music-app/master/src/assets/sexion d assaut.jpg",
-      "src": "http://drissbouda.xoom.it/mp3/Desole.mp3"
+      "src": "https://drissbouda.xoom.it/mp3/Desole.mp3"
     },
     {
       "id": 266,
@@ -1879,14 +1879,14 @@ function App() {
       "title": "Ma Nansakch",
       "artist": "Cheb Bilal",
       "img_src": "https://raw.githubusercontent.com/DrissBouda/vuejs-music-app/master/src/assets/cheb bilal.jpg",
-      "src": "http://drissbouda.xoom.it/Cheb%20Bilal%20-%20Ma%20Nansakch.mp3"
+      "src": "https://drissbouda.xoom.it/Cheb%20Bilal%20-%20Ma%20Nansakch.mp3"
     },
     {
       "id": 268,
       "title": "Ihsass",
       "artist": "Carole Samaha",
       "img_src": "https://raw.githubusercontent.com/DrissBouda/vuejs-music-app/master/src/assets/carole samaha.jpg",
-      "src": "http://k005.kiwi6.com/hotlink/eblg20ogch/Carole_samaha_-_01._ehssas.mp3"
+      "src": "https://k005.kiwi6.com/hotlink/eblg20ogch/Carole_samaha_-_01._ehssas.mp3"
     }
   ]);
 

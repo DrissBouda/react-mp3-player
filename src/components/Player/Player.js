@@ -5,10 +5,6 @@ import Details from './Details';
 function Player(props) {
     const audioEl = useRef(null)
     const [isPlaying, setIsPlaying] = useState(false)
-    const [selected, setSelected] = useState()
-    const handleChange = (e) => {
-        setSelected(e.target.value);
-    };
 
     useEffect(() => {
         const artistox = document.getElementById("artistImage");
@@ -55,6 +51,7 @@ function Player(props) {
                 <Details song={props.songs[props.currentSongIndex]} />
                 <Controls isPlaying={isPlaying} setIsPlaying={setIsPlaying} SkipSong={SkipSong} />
                 <p>Next Up: <span>{props.songs[props.nextSongIndex].id+1}. {props.songs[props.nextSongIndex].title} by {props.songs[props.nextSongIndex].artist}</span></p>
+                <div className='bouda'><h4>DrissBouda &copy;</h4></div>
             </div>
     )
 }

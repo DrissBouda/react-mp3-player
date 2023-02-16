@@ -1,5 +1,6 @@
 import {useState, useEffect} from 'react';
 import Player from './components/Player/Player';
+
 function App() {
   const [songs] = useState([
     {

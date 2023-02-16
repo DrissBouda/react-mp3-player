@@ -1,6 +1,6 @@
 import {useState, useEffect} from 'react';
 import Player from './components/Player/Player';
-import { BrowserRouter, Routes, Route } from "react-router-dom"
+import {BrowserRouter, Routes, Route} from "react-router-dom"
 
 function App() {
   const [songs] = useState(
@@ -1894,13 +1894,13 @@ function App() {
   const [nextSongIndex, setNextSongIndex] = useState(0);
 
   useEffect(() => {
-    setNextSongIndex(() => {
-      if (currentSongIndex + 1 > songs.length - 1) {
-        return 0;
-      } else {
-        return currentSongIndex + 1;
-      }
-    });
+      setNextSongIndex(() => {
+        if (currentSongIndex + 1 > songs.length - 1) {
+          return 0;
+        } else {
+          return currentSongIndex + 1;
+        }
+      });
   }, [currentSongIndex, songs.length]);
   
   return (

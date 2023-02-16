@@ -4,8 +4,31 @@ import Details from './Details';
 
 function Player(props) {
     const audioEl = useRef(null)
+    // useState area
     const [isPlaying, setIsPlaying] = useState(false)
+    const [duration, setDuration] = useState(0)
+    const [curduration, setCurduration] = useState(0)
+    //const [intervalId, setIntervalId] = useState(null);
 
+    const handleLoadedMetadata = () => {
+        setDuration(audioEl.current.duration);
+        setInterval(() => {
+            setCurduration(audioEl.current.currentTime);
+          }, 1000);
+    };
+
+    function formatDuration1(duration) {
+        const minutes = Math.floor(duration / 60);
+        const seconds = Math.floor(duration % 60);
+        return `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
+    }
+
+    function formatDuration2(curduration) {
+        const minutes = Math.floor(curduration / 60);
+        const seconds = Math.floor(curduration % 60);
+        return `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
+    }
+    // useEffect area
     useEffect(() => {
         const artistox = document.getElementById("artistImage");
         if (isPlaying) {
@@ -15,7 +38,8 @@ function Player(props) {
         } else {
             audioEl.current.pause();
             artistox.classList.add("paused");
-        }       
+        }
+           
     });
 
     const SkipSong = (forwards = true) => {
@@ -45,12 +69,25 @@ function Player(props) {
     }
 
     return (
-            <div className="c-player">
+        <div className="c-player">
                 <h4>{props.songs[props.nextSongIndex].id} of {props.songs.length} songs</h4>
-                <audio id='audio' onEnded={SkipSong} src={props.songs[props.currentSongIndex].src} ref={audioEl}></audio>
+                <audio 
+                    id='audio' onEnded={SkipSong} 
+                    src={props.songs[props.currentSongIndex].src} 
+                    ref={audioEl}
+                    onLoadedMetadata={handleLoadedMetadata}
+                >
+                </audio>
                 <Details song={props.songs[props.currentSongIndex]} />
+                <p className='duration'>{formatDuration2(curduration)} &mdash; {formatDuration1(duration)}</p>
                 <Controls isPlaying={isPlaying} setIsPlaying={setIsPlaying} SkipSong={SkipSong} />
-                <p>Next Up: <span>{props.songs[props.nextSongIndex].id+1}. {props.songs[props.nextSongIndex].title} by {props.songs[props.nextSongIndex].artist}</span></p>
+                <p>Next 3 songs:
+                    <div className='next-songs'>
+                        <span>{props.songs[props.nextSongIndex].id+1}. {props.songs[props.nextSongIndex].title} by {props.songs[props.nextSongIndex].artist}</span>
+                        <span>{props.songs[props.nextSongIndex].id+2}. {props.songs[props.nextSongIndex + 1].title} by {props.songs[props.nextSongIndex + 1].artist}</span>
+                        <span>{props.songs[props.nextSongIndex].id+3}. {props.songs[props.nextSongIndex + 2].title} by {props.songs[props.nextSongIndex + 2].artist}</span>
+                    </div>
+                </p>
                 <div className='bouda'><h4>DrissBouda &copy;</h4></div>
             </div>
     )

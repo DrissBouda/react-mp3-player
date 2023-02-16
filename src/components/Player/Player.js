@@ -88,7 +88,7 @@ function Player(props) {
                         <span>{props.songs[props.nextSongIndex].id+3}. {props.songs[props.nextSongIndex + 2].title} by {props.songs[props.nextSongIndex + 2].artist}</span>
                     </div>
                 </p>
-                <div className='bouda'><h4>DrissBouda &copy;</h4></div>
+                <div className='bouda'>- Powered by DrissBouda &copy; -</div>
             </div>
     )
 }

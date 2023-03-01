@@ -8,7 +8,6 @@ function Player(props) {
     const [isPlaying, setIsPlaying] = useState(false)
     const [duration, setDuration] = useState(0)
     const [curduration, setCurduration] = useState(0)
-    //const [intervalId, setIntervalId] = useState(null);
 
     const handleLoadedMetadata = () => {
         setDuration(audioEl.current.duration);
@@ -81,14 +80,6 @@ function Player(props) {
                 <Details song={props.songs[props.currentSongIndex]} />
                 <p className='duration'>{formatDuration2(curduration)} &mdash; {formatDuration1(duration)}</p>
                 <Controls isPlaying={isPlaying} setIsPlaying={setIsPlaying} SkipSong={SkipSong} />
-                <p>Next 3 songs:
-                    <div className='next-songs'>
-                        <span>{props.songs[props.nextSongIndex].id+1}. {props.songs[props.nextSongIndex].title} by {props.songs[props.nextSongIndex].artist}</span>
-                        <span>{props.songs[props.nextSongIndex].id+2}. {props.songs[props.nextSongIndex + 1].title} by {props.songs[props.nextSongIndex + 1].artist}</span>
-                        <span>{props.songs[props.nextSongIndex].id+3}. {props.songs[props.nextSongIndex + 2].title} by {props.songs[props.nextSongIndex + 2].artist}</span>
-                    </div>
-                </p>
-                <div className='bouda'>- Powered by DrissBouda &copy; -</div>
             </div>
     )
 }

@@ -6,10 +6,6 @@
   font-family: "Poppins", sans-serif;
 }
 
-body {
-  background-color: #333;
-}
-
 .App {
   display: flex;
   align-items: center;
@@ -27,13 +23,7 @@ body {
   outline: none;
   border: none;
 }
-.bouda {
-  display: flex;
-  position: fixed;
-  left: 200px;
-  margin-bottom: 10px;
-  color: #fff;
-}
+
 .next-songs {
   display: flex;
   flex-direction: column;
@@ -126,19 +116,14 @@ body {
 }
 
 .c-player--details .details-title {
-  color: #eee;
   font-size: 28px;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8),
-    -2px -2px 4px rgba(255, 255, 255, 0.4);
+
   text-align: center;
   margin-bottom: 10px;
 }
 
 .c-player--details .details-artist {
-  color: #aaa;
   font-size: 20px;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8),
-    -2px -2px 4px rgba(243, 153, 153, 0.4);
   text-align: center;
   margin-bottom: 10px;
 }

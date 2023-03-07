@@ -2172,7 +2172,6 @@ function App() {
       src: "https://wss.xoom.it/divers/Carole%20Samaha%20-%20Aoul%20Ansak.mp3",
     },
   ]);
-
   const [currentSongIndex, setCurrentSongIndex] = useState(0);
   const [nextSongIndex, setNextSongIndex] = useState(0);
 

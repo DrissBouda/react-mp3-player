@@ -14,7 +14,7 @@ function App() {
         artist: "Abdeelgha4",
         img_src:
           "https://raw.githubusercontent.com/DrissBouda/vuejs-music-app/master/src/assets/abdeelgha4.jpg",
-        src: "http://xoom.virgilio.it/source_filemanager/ws/ss/wss/rap-maroc/Abdeelgha4%20-%20Maliach.mp3",
+        src: "https://xoom.virgilio.it/source_filemanager/ws/ss/wss/rap-maroc/Abdeelgha4%20-%20Maliach.mp3",
       },
       {
         id: 2,

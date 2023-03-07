@@ -2,6 +2,9 @@ import React, { useState, useRef, useEffect } from "react";
 import Controls from "./Controls";
 import Details from "./Details";
 
+import TextField from "@mui/material/TextField";
+import Autocomplete from "@mui/material/Autocomplete";
+
 function Player(props) {
   const audioEl = useRef(null);
   // useState area
@@ -68,6 +71,26 @@ function Player(props) {
 
   return (
     <div className="c-player">
+      <div className="searchBar">
+        <Autocomplete
+          freeSolo
+          id="free-solo-2-demo"
+          disableClearable
+          options={props.songs.map((option) => {
+            return option.title + " by " + option.artist;
+          })}
+          renderInput={(params) => (
+            <TextField
+              {...params}
+              label="Search for a song ..."
+              InputProps={{
+                ...params.InputProps,
+                type: "search",
+              }}
+            />
+          )}
+        />
+      </div>
       <h4>
         {props.songs[props.currentSongIndex].id} out of {props.songs.length}{" "}
         songs

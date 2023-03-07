@@ -1,6 +1,13 @@
 import { useState, useEffect } from "react";
 import Player from "./components/Player/Player";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { ThemeProvider, createTheme } from "@mui/material/styles";
+import CssBaseline from "@mui/material/CssBaseline";
+const darkTheme = createTheme({
+  palette: {
+    mode: "dark",
+  },
+});
 
 function App() {
   const [songs] = useState([
@@ -2180,24 +2187,27 @@ function App() {
   }, [currentSongIndex, songs.length]);
 
   return (
-    <div className="App">
-      <BrowserRouter>
-        <Routes>
-          <Route
-            exact
-            path="/"
-            element={
-              <Player
-                currentSongIndex={currentSongIndex}
-                setCurrentSongIndex={setCurrentSongIndex}
-                nextSongIndex={nextSongIndex}
-                songs={songs}
-              />
-            }
-          ></Route>
-        </Routes>
-      </BrowserRouter>
-    </div>
+    <ThemeProvider theme={darkTheme}>
+      <CssBaseline />
+      <div className="App">
+        <BrowserRouter>
+          <Routes>
+            <Route
+              exact
+              path="/"
+              element={
+                <Player
+                  currentSongIndex={currentSongIndex}
+                  setCurrentSongIndex={setCurrentSongIndex}
+                  nextSongIndex={nextSongIndex}
+                  songs={songs}
+                />
+              }
+            ></Route>
+          </Routes>
+        </BrowserRouter>
+      </div>
+    </ThemeProvider>
   );
 }
 

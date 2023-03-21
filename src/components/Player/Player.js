@@ -30,6 +30,10 @@ function Player(props) {
   // useEffect area
   useEffect(() => {
     const artistox = document.getElementById("artistImage");
+    document.title =
+      props.songs[props.currentSongIndex].title +
+      " - " +
+      props.songs[props.currentSongIndex].artist;
     if (isPlaying) {
       audioEl.current.play();
       artistox.classList.add("rotate");
